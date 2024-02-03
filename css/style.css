@@ -516,3 +516,9 @@ width: 100%;
     color:var(--second1-bg-color);
     margin:3rem 1.5rem 3rem 0;
 }
+.details{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
