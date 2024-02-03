@@ -178,6 +178,10 @@
      <h4><i class='bx bxl-gmail'></i> : suneelvuna@gmail.com</h4>
      <h4><i class='bx bxs-phone bx-tada bx-rotate-180'></i> : +91 8341918168</h4>
     </div>
+    <div class="count1">
+    <p style="font-size: 2.2rem;">This website has been visited:</p>
+    <p id="visit-count">0</p>  
+    </div>
     <!-- footer design -->
     <footer class="footer">
       <div class="footer-text">
@@ -206,5 +210,20 @@
     <!-- typed js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/script.js"></script>
+
+  <script>
+    // Function to update and display visit count
+    function updateVisitCount() {
+      let count = localStorage.getItem('visitCount') || 0;
+      count = parseInt(count) + 1;
+      localStorage.setItem('visitCount', count);
+      document.getElementById('visit-count').textContent = count;
+    }
+
+    // Call the function on page load
+    window.onload = function() {
+      updateVisitCount();
+    };
+  </script>
   </body>
 </html>

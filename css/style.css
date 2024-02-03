@@ -516,3 +516,13 @@ width: 100%;
     color:var(--second1-bg-color);
     margin:3rem 1.5rem 3rem 0;
 }
+#visit-count {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+.count1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #0B1D28;
+}
