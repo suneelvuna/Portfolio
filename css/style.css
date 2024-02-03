@@ -527,7 +527,7 @@ width: 100%;
     justify-content: space-around;
     align-items: center;
     border: 0.6rem solid var(--main-color);
-    border-radius: 30px;
+    border-radius: 29px;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 1rem var(--main-color);
